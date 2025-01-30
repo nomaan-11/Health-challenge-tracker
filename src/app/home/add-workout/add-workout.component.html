@@ -1,0 +1,43 @@
+<form class="flex flex-col w-[100%] p-4" [formGroup] = "addWorkoutGroup">
+    <div>
+      <mat-form-field appearance="fill">
+        <mat-label>User Name</mat-label>
+        <input 
+          matInput placeholder="User Name" 
+          value=""
+          class="rounded"
+          required
+          formControlName = "user_name"
+        />
+      </mat-form-field>
+    </div>
+    <div class="flex justify-between">
+        <mat-form-field appearance="fill">
+            <mat-label>Workout Type</mat-label>
+            <mat-select formControlName = "filter_field">
+                <mat-option value="Running">Running</mat-option>
+                <mat-option value="Cycling">Cycling</mat-option>
+                <mat-option value="Swimming">Swimming</mat-option>
+                <mat-option value="Yoga">Yoga</mat-option>
+                <mat-option value="Calisthenics">Calisthenics</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+        <mat-label>Workout Minutes</mat-label>
+        <input 
+            matInput placeholder="Minutes" 
+            value=""
+            class="rounded"
+            required
+            min="0"
+            type="number"
+            formControlName = "total_time"
+        />
+        </mat-form-field>
+    </div>
+  
+    <div>
+      <button mat-raised-button (click)="addWorkout()">Add Workout</button>
+    </div>
+  </form>
+  

@@ -1,0 +1,24 @@
+<form class="flex justify-between p-10 align-middle" [formGroup] = "searchGroup"  (ngSubmit)="$event.preventDefault(); submitForm()"> 
+    <mat-form-field class="w-[40%]">
+        <mat-label>Search</mat-label>
+        <input 
+            matInput placeholder="Search" 
+            value=""
+            class="rounded"
+            formControlName = "search_field"
+            >
+    </mat-form-field>
+    <mat-form-field class="w-[40%]">
+        <mat-label>Filter by Workout Type</mat-label>
+        <mat-select  formControlName = "filter_field">
+            <mat-option *ngFor = "let workout of options" [value]="workout.value ">
+                {{ workout.label }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <div class="mt-2">
+        <button mat-raised-button (click)="addWorkout()">+ Add Workout</button>
+    </div>
+</form>
+
+  

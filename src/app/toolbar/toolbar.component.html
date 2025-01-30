@@ -1,0 +1,15 @@
+<div class="flex flex-col bg-gray-200 shadow-lg w-[80px] h-full p-4">
+    <div class="flex flex-col gap-2 pt-3">
+        <div class="bg-white rounded-md p-2 w-12 h-12 flex justify-center items-center">
+            <button mat-icon-button matTooltip="Home" matTooltipPosition="right" (click)="navigate('')">
+                <mat-icon class="text-black">home</mat-icon>
+            </button>
+        </div>
+        <mat-divider></mat-divider>
+        <div class="bg-white rounded-md p-2 w-12 h-12 flex justify-center items-center">
+            <button mat-icon-button matTooltip="Progress" matTooltipPosition="right" (click)="navigate('progress')">
+                <mat-icon class="text-black">show_chart</mat-icon>
+            </button>
+        </div>
+    </div>
+</div>
