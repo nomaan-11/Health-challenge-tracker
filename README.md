@@ -1,7 +1,7 @@
 # Fyle Health Challenge Tracker
 
 ### This is a assignment project for the Front End Developer Internship Role at Fyle. This project is deployed in Vercel.
-- Github Repo: https://github.com/knight7080/fyle-health-challenge-tracker.git
+- Github Repo: https://github.com/nomaan-11/fyle-Health-challenge-tracker.git
 - Vercel Link: https://fyle-health-challenge-tracker.vercel.app/
 ## Note
 - The Add Work feature can be accessed by clicking the `+ Add Workout` button which produces a overlay modal via which the said task can be done.
