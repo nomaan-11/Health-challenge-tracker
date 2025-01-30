@@ -31,7 +31,7 @@ To install the project locally, follow these steps:
 2. **Navigate to the project directory**:
 
    ```bash
-   cd health-challenge-tracker
+   cd fyle-health-challenge-tracker
    ```
 
 3. **Install the dependencies**:
