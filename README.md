@@ -57,7 +57,7 @@ ng test --code-coverage
 
 ## Code Coverage Report
 ### Added unit test for 1 component (user-charts.components.ts) and 1 service (update-workout.services.spec.ts).
-![image](https://github.com/user-attachments/assets/1073f2d9-4840-475b-8143-086023bac696)
+![Image](https://github.com/user-attachments/assets/823d9d4b-91ad-4a49-ab1d-b05f9ef13b29)
 
 ![image](https://github.com/user-attachments/assets/10452dfc-6975-49c4-85a6-938ec55d4559)
 
